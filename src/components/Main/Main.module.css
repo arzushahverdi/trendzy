@@ -1,0 +1,49 @@
+.mainsection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  background-image: url(https://assets-global.website-files.com/6607ad03b43fbbc8045dfbf0/663398b1a962fb8ad4eebd03_hero-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 100px 30px;
+  box-sizing: border-box;
+  padding: 100px 20px;
+}
+
+.mainsection h1 {
+  font-weight: 600;
+  line-height: 80px;
+  font-size: 60px;
+  width: 570px;
+  margin: 0 auto;
+}
+
+.mainsection p {
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.mainbuttons {
+  display: flex;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+button {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+  cursor: pointer;
+}
